@@ -55,7 +55,7 @@ const checkIfStringContainsPattern = (string, pattern) => {
 
 // DOWNLOAD FILE in the same page 
 //this can be used to download a file, without the need to open new-tab.
-const downloadURI = (fileURL, fileName = "someFile.txt") => {
+const downloadURI = (fileURL, fileName ) => {
     var link = document.createElement("a");
     link.download = fileName;
     link.href = fileURL;
