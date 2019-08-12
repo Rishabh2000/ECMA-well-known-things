@@ -35,3 +35,16 @@ const checkIfElementExistsInArray = (element, elementArray) => {
 };
 
 //############################# ARRAY METHODS STOP #############################
+
+
+
+
+const checkIfStringContainsPattern = (string, pattern) => {
+    string += "";
+    pattern += "";
+    string = string.toUpperCase();
+    pattern = pattern.toUpperCase();
+
+    return string.includes(pattern);
+}
+// Eg: checkIfStringContainsPattern("apple" , "app" ) , will return TRUE.
